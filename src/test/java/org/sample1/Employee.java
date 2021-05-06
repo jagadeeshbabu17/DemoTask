@@ -16,6 +16,8 @@ public class Employee {
 	public static void main(String[] args) throws IOException {
 		File file = new File("C:\\Users\\jb\\selinium\\Employee\\file\\jb.xls");
 		 FileInputStream stream = new FileInputStream(file);
+		 System.out.println("hai");
+		 System.out.println("hai");
 		 Workbook workbook = new HSSFWorkbook(stream);
 		 Sheet sheet = workbook.getSheet("Sheet1");
 //		 Row row = sheet.getRow(7);
